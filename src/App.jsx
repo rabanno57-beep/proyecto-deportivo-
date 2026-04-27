@@ -15,11 +15,11 @@ function App() {
   // Filter logic
   const filteredClubs = useMemo(() => {
     return clubsData.filter(club => {
-      const matchSearch = club.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                          club.description.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchSearch = club.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        club.description.toLowerCase().includes(searchTerm.toLowerCase());
       const matchSport = selectedSport === '' || club.sport === selectedSport;
       const matchMunicipality = selectedMunicipality === '' || club.municipality === selectedMunicipality;
-      
+
       return matchSearch && matchSport && matchMunicipality;
     });
   }, [searchTerm, selectedSport, selectedMunicipality]);
@@ -27,13 +27,13 @@ function App() {
   return (
     <div className="app-container">
       <Header />
-      
+
       {/* Hero Banner Area */}
       <div className="hero-banner">
         <div className="hero-overlay"></div>
-        <img 
-          src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2000&auto=format&fit=crop" 
-          alt="Sports in Tabasco" 
+        <img
+          src="./src/images/Banner-inicio.webp"
+          alt="Sports in Tabasco"
           className="hero-image"
         />
         <div className="hero-content">
@@ -47,7 +47,7 @@ function App() {
       </div>
 
       <main className="main-wrapper">
-        <FilterBar 
+        <FilterBar
           searchTerm={searchTerm} setSearchTerm={setSearchTerm}
           selectedSport={selectedSport} setSelectedSport={setSelectedSport}
           selectedMunicipality={selectedMunicipality} setSelectedMunicipality={setSelectedMunicipality}

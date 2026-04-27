@@ -1,4 +1,5 @@
 import logoSonic from '../images/logo-sonic.jpeg';
+import Bannerinicio from '../images/Banner-inicio.webp';
 
 export const municipalities = [
   "Centro", "Cárdenas", "Comalcalco", "Macuspana", "Huimanguillo",
