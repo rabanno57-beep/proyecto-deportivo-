@@ -12,28 +12,28 @@ export const sports = [
 export const clubsData = [
   {
     id: 1,
-    name: "Olmecas ",
-    sport: "Béisbol",
+    name: "Escuela de basquetbol Sonics ",
+    sport: "Básquetbol",
     municipality: "Centro",
     rating: 4.8,
-    monthlyCost: 600,
+    monthlyCost: 500,
     coverImage: logoSonic,
-    coaches: ["Carlos 'El Zurdo' Pérez", "Manuel Rodríguez"],
+    coaches: [" Erick López Contreras", "Jhoany Rubi López Valerio", "Erick Jesús López Valerio"],
     palmares: [
-      "Campeón Liga Infantil Tabasqueña 2023",
-      "Subcampeón Regional Sureste 2022"
+      "Campeones liga municipal B 2025",
+      "2do lugar luga municipal A 2026"
     ],
     reviews: [
       { user: "María G.", comment: "Excelente ambiente para los niños, entrenadores muy profesionales.", stars: 5 },
       { user: "Juan P.", comment: "Las instalaciones están en buen estado.", stars: 4 }
     ],
     socialLinks: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      whatsapp: "https://wa.me/521234567890"
+      facebook: "https://www.facebook.com/share/1C1TXFcJgW/?mibextid=wwXIfr",
+      instagram: "https://www.instagram.com/sonics_tabasco/",
+
     },
-    locationMap: "https://maps.google.com/?q=Villahermosa,Tabasco",
-    description: "Academia filial de los Olmecas, enfocada en el desarrollo de talentos infantiles y juveniles con entrenamiento de alto rendimiento."
+    locationMap: "https://share.google/UqOLKcjkI8UzenxVo",
+    description: "Escuela de basquetbol para niños y jóvenes, enfocada en el desarrollo de talentos infantiles y juveniles con entrenamiento de alto rendimiento."
   },
   {
     id: 2,
