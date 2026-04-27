@@ -1,5 +1,5 @@
 export const municipalities = [
-  "Centro", "Cárdenas", "Comalcalco", "Macuspana", "Huimanguillo", 
+  "Centro", "Cárdenas", "Comalcalco", "Macuspana", "Huimanguillo",
   "Cunduacán", "Centla", "Teapa", "Paraíso", "Nacajuca", "Jalpa de Méndez"
 ];
 
@@ -104,23 +104,23 @@ export const clubsData = [
   },
   {
     id: 5,
-    name: "Potros Macuspana",
+    name: "Escuela de basquetbol Sonics",
     sport: "Básquetbol",
-    municipality: "Macuspana",
+    municipality: "Centro",
     rating: 4.3,
-    monthlyCost: 400,
-    coverImage: "https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=1000&auto=format&fit=crop",
-    coaches: ["Arturo 'El Poste' Mendoza"],
+    monthlyCost: 500,
+    coverImage: "https://www.instagram.com/p/DVR3ne7EV14/?img_index=2",
+    coaches: [" Erick López Contreras Jhoany Rubi López Valerio Coach Erick Jesús López Valerio"],
     palmares: [
-      "Campeón Liga Municipal 2021"
+      "Campeón Liga Municipal 2024"
     ],
     reviews: [
       { user: "Karla J.", comment: "Buen ambiente familiar en los partidos.", stars: 4 }
     ],
     socialLinks: {
-      facebook: "https://facebook.com"
+      instagram: "https://www.instagram.com/sonics_tabasco/"
     },
-    locationMap: "https://maps.google.com/?q=Macuspana,Tabasco",
+    locationMap: "https://share.google/UqOLKcjkI8UzenxVo",
     description: "Club de baloncesto para niños y jóvenes, enfocado en el trabajo en equipo."
   },
   {
