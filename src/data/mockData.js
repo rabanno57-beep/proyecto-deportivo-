@@ -1,5 +1,7 @@
+import logoSonic from '../images/logo-sonic.jpeg';
+
 export const municipalities = [
-  "Centro", "Cárdenas", "Comalcalco", "Macuspana", "Huimanguillo", 
+  "Centro", "Cárdenas", "Comalcalco", "Macuspana", "Huimanguillo",
   "Cunduacán", "Centla", "Teapa", "Paraíso", "Nacajuca", "Jalpa de Méndez"
 ];
 
@@ -10,12 +12,12 @@ export const sports = [
 export const clubsData = [
   {
     id: 1,
-    name: "Olmecas Academy",
+    name: "Olmecas ",
     sport: "Béisbol",
     municipality: "Centro",
     rating: 4.8,
     monthlyCost: 600,
-    coverImage: "https://images.unsplash.com/photo-1508344928928-7137b29de216?q=80&w=1000&auto=format&fit=crop",
+    coverImage: logoSonic,
     coaches: ["Carlos 'El Zurdo' Pérez", "Manuel Rodríguez"],
     palmares: [
       "Campeón Liga Infantil Tabasqueña 2023",
@@ -120,7 +122,7 @@ export const clubsData = [
     socialLinks: {
       facebook: "https://facebook.com"
     },
-    locationMap: "https://maps.google.com/?q=Macuspana,Tabasco",
+    locationMap: "CANCHAS DE LA DEPO",
     description: "Club de baloncesto para niños y jóvenes, enfocado en el trabajo en equipo."
   },
   {

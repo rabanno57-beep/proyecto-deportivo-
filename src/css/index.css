@@ -1,0 +1,23 @@
+:root {
+  --bg-primary: #f0fdf4;
+  --text-primary: #0f172a;
+  --color-brand: #166534;
+  --color-brand-hover: #14532d;
+  --color-brand-light: #15803d;
+  --color-accent: #fde047;
+  --color-border: #e2e8f0;
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+@import "tailwindcss";
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+}
