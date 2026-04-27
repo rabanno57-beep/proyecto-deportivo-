@@ -2,8 +2,11 @@
   --bg-primary: #f0fdf4;
   --text-primary: #0f172a;
   --color-brand: #166534;
-  --color-brand-hover: #14532d;
-  --color-brand-light: #15803d;
+  --color-brand-hover: #15803d;
+  --color-brand-light: #22c55e;
+  --color-header-bg: #f70000;
+  --color-price: #166534;
+  --color-filter-text: #0f172a;
   --color-accent: #fde047;
   --color-border: #e2e8f0;
   --font-main: 'Inter', system-ui, -apple-system, sans-serif;

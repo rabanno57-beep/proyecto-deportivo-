@@ -51,7 +51,7 @@
 
 /* Header */
 .app-header {
-  background-color: var(--color-brand);
+  background-color: var(--color-header-bg);
   color: white;
   box-shadow: var(--shadow-lg);
   position: sticky;
